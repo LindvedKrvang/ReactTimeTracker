@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {TimeTrackerContainer} from "./components/time-tracker-container";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <TimeTrackerContainer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
